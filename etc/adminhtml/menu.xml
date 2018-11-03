@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Baniwal_Recipes::manager" title="Recipes" module="Baniwal_Recipes" sortOrder="30" resource="Baniwal_Recipes::manager" />
+        <add id="Baniwal_Recipes::add_row" title="Recipes Manager" module="Baniwal_Recipes" sortOrder="20" parent="Baniwal_Recipes::manager" action="grid/grid" resource="Baniwal_Recipes::add_row"/>
+    </menu>
+</config>
